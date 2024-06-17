@@ -42,9 +42,16 @@
       background-color: violet;
     }
 
-    .pensio_payment_form_row.cardnumber_row {
+    /* .pensio_payment_form_row.cardnumber_row {
       width: 100%;
       max-width: 450px;
+    } */
+
+    .pensio_payment_form_label_cell {
+      color: #030711;
+      font-size: 18px;
+      line-height: 28px;
+      margin-top: 8px;
     }
 
     #creditCardNumberInput, #cvcInput, #cardholderNameInput {
@@ -61,11 +68,17 @@
       display: none;
     }
 
-    .pensio_payment_form_label_cell {
-      color: #030711;
-      font-size: 18px;
-      line-height: 28px;
-      margin-top: 8px;
+    #pensioCreditCardPaymentSubmitButton {
+      width: 100%;
+      max-width: calc(100vw - 10px);
+      margin-top: 16px;
+      padding: 8px 12px;
+      font-size: 16px;
+      line-height: 24px;
+      background-color: #030711;
+      color: #fff;
+      border: none;
+      cursor: pointer;
     }
   </style>
 </head>
