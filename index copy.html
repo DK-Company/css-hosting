@@ -7,10 +7,10 @@
   <title>Document</title>
   <style>
     .MyFormContainer {
-      /* width: 100%;
+      width: 100%;
       max-width: 450px;
       margin-left: auto;
-      margin-right: auto; */
+      margin-right: auto;
       background-color: transparent;
       position: relative;
       font-size: 16px;
@@ -37,28 +37,34 @@
     }
 
     .PensioEmbeddedPaymentWindow {
-      /* width: 500px !important; */
+      width: 500px !important;
     }
 
     /** CONTAINERS **/
 
     .pensio_payment_form_row {
-      /* margin-top: 24px; */
+      margin-top: 24px;
     }
 
     /* LABELS */
     .pensio_payment_form_label_cell {
-      /* font-weight: 500;
-      font-size: 1rem;
-      line-height: 1.5rem;
-      color: #0f172a; */
+      font-weight: 500;
+      font-size: 1rem
+        /* 16px */
+      ;
+      line-height: 1.5rem
+        /* 24px */
+      ;
+      color: #0f172a;
     }
 
     /** FIELDS **/
 
     /* Creditcard number */
     .pensio_payment_form_input_cell>#creditCardNumberInput {
-      /* width: 424px;
+      /* width: 424px; */
+      width: 100%;
+
 
       margin: 4px 0 0 0;
       padding: 8px 12px;
@@ -69,19 +75,19 @@
 
       background-color: rgb(255 255 255 / 1);
       font-size: 16px;
-      line-height: 24px; */
+      line-height: 24px;
     }
 
     /* Creditcard type selector */
     .pensio_payment_form_input_cell>#creditCardTypeIcon,
     .pensio_payment_form_input_cell>#creditCardTypeSecondIcon,
     .pensio_payment_form_input_cell>#selectCardLabel {
-      /* display: none; */
+      display: none;
     }
 
     /* Creditcard expiry month */
     .pensio_payment_form_input_cell>#emonth {
-      /* width: 217px;
+      width: 217px;
 
       margin: 4px 11px 0 0;
       padding: 10px 12px;
@@ -91,13 +97,13 @@
       border-style: solid;
 
       background-color: rgb(255 255 255 / 1);
-      font-size: 16px; */
+      font-size: 16px;
       /* line-height: 24px; Line height is not valid on a native HTML select element so we use padding instead */
     }
 
     /* Creditcard expiry year */
     .pensio_payment_form_input_cell>#eyear {
-      /* width: 217px;
+      width: 217px;
 
       margin: 4px 0 0 0;
       padding: 10px 12px;
@@ -108,19 +114,19 @@
 
       background-color: rgb(255 255 255 / 1);
       font-size: 16px;
-      line-height: 24px; */
+      line-height: 24px;
     }
 
     /* Creditcard expiry helper labels */
     .pensio_payment_form_row.expiry_row>label[for='emonth'],
     .pensio_payment_form_row.expiry_row>label[for='eyear'],
     .pensio_payment_form_label_cell_divider {
-      /* display: none; */
+      display: none;
     }
 
     /* Creditcard CVC */
     .pensio_payment_form_input_cell>#cvcInput {
-      /* width: 424px;
+      width: 424px;
 
       margin: 4px 0 0 0;
       padding: 8px 12px;
@@ -131,29 +137,29 @@
 
       background-color: rgb(255 255 255 / 1);
       font-size: 16px;
-      line-height: 24px; */
+      line-height: 24px;
     }
 
     /* Creditcard CVC helper image */
     .pensio_payment_form_cvc_cell {
-      /* display: none; */
+      display: none;
     }
 
     /* Creditcard CVC helper text */
     #pensio_payment_form_cvc_description {
-      /* margin: -20px 0 0 0;
+      margin: -20px 0 0 0;
       font-weight: 400;
-      color: #94a3b8; */
+      color: #94a3b8;
     }
 
     /* Creditcard CVC error message */
     #invalid_cvc {
-      /* color: #ef4444; */
+      color: #ef4444;
     }
 
     /* Creditcard name */
     .pensio_payment_form_input_cell>#cardholderNameInput {
-      /* width: 424px;
+      width: 424px;
 
       margin: 4px 0 0 0;
       padding: 8px 12px;
@@ -164,19 +170,19 @@
 
       background-color: rgb(255 255 255 / 1);
       font-size: 16px;
-      line-height: 24px; */
+      line-height: 24px;
     }
 
     /* Creditcard name error message */
     #invalid_cardholdername {
-      /* color: #ef4444; */
+      color: #ef4444;
     }
 
     /** BUTTONS **/
 
     /* Creditcard button */
     #pensioCreditCardPaymentSubmitButton {
-      /* width: 100%;
+      width: 100%;
       height: 42px;
       margin: 24px 0 0 0;
       border-radius: 6px;
@@ -184,12 +190,12 @@
       border-style: solid;
       border-color: transparent;
       color: #f8fafc;
-      background-color: #020617; */
+      background-color: #020617;
     }
 
     #pensioCreditCardPaymentSubmitButton:disabled {
-      /* color: #64748b;
-      background-color: #e2e8f0; */
+      color: #64748b;
+      background-color: #e2e8f0;
     }
   </style>
 </head>
